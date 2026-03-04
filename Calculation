@@ -1,5 +1,6 @@
-'''Python
-print"This is a Python script")
+```python
+print("This is a Python script")
+
 PV = 300000          # Loan amount
 r = 0.040/12         # Monthly interest rate (0.040 / 12 = 0.0033)
 n = 25*12            # Number of payments (months)
