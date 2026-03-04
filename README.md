@@ -3,6 +3,7 @@ print("This is a Python script")
 
 #Calculating mortgage repayments, interest, the impact of monthly overpayments, and the total money saved over time.
 
+
 PV = 350000          # Loan amount
 r = 0.0366/12         # Monthly interest rate (0.040 / 12 = 0.0033)
 year = 25
@@ -18,8 +19,13 @@ print(f"  Total paid over {year} years: £{total_paid:,.0f}")
 print(f"  Total interest paid: £{total_interest:,.0f}")
 print()
 
+# Interest Only
+Interest = PV *r
+print(f"  Interest only re=payment £{Interest:,.0f}")
+print()
+
 # Overpayment
-OP = 100.0
+OP = 200.0
 pmt_over = pmt + OP  # overpayment increases the monthly payment
 
 # New term with higher payment:
