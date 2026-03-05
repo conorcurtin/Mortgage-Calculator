@@ -4,8 +4,8 @@ print("This is a Python script")
 #Calculating mortgage repayments, interest, the impact of monthly overpayments, and the total money saved over time.
 
 
-PV = 350000          # Loan amount
-r = 0.0366/12         # Monthly interest rate (0.040 / 12 = 0.0033)
+PV = 100000          # Loan amount
+r = 0.04/12         # Monthly interest rate (0.040 / 12 = 0.0033)
 year = 25
 n = year*12            # Number of payments (months)
 
